@@ -1,0 +1,3 @@
+# Generated release artifacts
+releases/*.mcaddon
+releases/*.zip

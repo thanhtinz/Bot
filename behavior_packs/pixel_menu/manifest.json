@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Pixel Realm Menu",
+    "description": "Pokemon-style menu UI for Minecraft Bedrock Realms using stable Script API.",
+    "uuid": "2f7a1bd9-76cb-4a0f-bf11-40db2163d7b0",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "1a58c2bd-7437-4aa2-9492-435ca7f1a81a",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
